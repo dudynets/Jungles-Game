@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>menu</name>
+    <events>
+        <variable constant="0" name="sound" sid="256808784676744" static="0" type="number">1</variable>
+        <variable constant="0" name="music" sid="760001707003169" static="0" type="number">1</variable>
+        <variable constant="0" name="notifications" sid="920457930083049" static="0" type="number">1</variable>
+        <event-block sid="835668352639654">
+            <conditions>
+                <condition id="17" name="On tap object" sid="819167757714849" type="Touch">
+                    <param id="0" name="Object">settings</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="207247411299277" type="System">
+                    <param id="0" name="Layer">1</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="559021056650737">
+            <conditions>
+                <condition id="17" name="On tap object" sid="464688307102416" type="Touch">
+                    <param id="0" name="Object">settings_close</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="615208442968453" type="System">
+                    <param id="0" name="Layer">1</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="215996967990481">
+            <conditions>
+                <condition id="3" name="On touched object" sid="489051205989339" type="Touch">
+                    <param id="0" name="Object">on1</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="236430977690143">
+                    <conditions>
+                        <condition id="-10" name="Compare opacity" sid="445045591801216" type="on1">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Opacity">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="350182730593666" type="on1">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="603082202894873" type="System">
+                            <param id="0" name="Variable">music</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="143269206811535">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="895747151157389" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="867591719294507" type="on1">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="659384878947475" type="System">
+                            <param id="0" name="Variable">music</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="465731353166649">
+            <conditions>
+                <condition id="3" name="On touched object" sid="434501387239736" type="Touch">
+                    <param id="0" name="Object">on2</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="153579052714233">
+                    <conditions>
+                        <condition id="-10" name="Compare opacity" sid="395429138182877" type="on2">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Opacity">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="611219493818961" type="on2">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="857898379595236" type="System">
+                            <param id="0" name="Variable">music</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="316478037982089">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="409056594923873" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="584856724463586" type="on2">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="160465426036220" type="System">
+                            <param id="0" name="Variable">music</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="342745871370349">
+            <conditions>
+                <condition id="3" name="On touched object" sid="359812723187320" type="Touch">
+                    <param id="0" name="Object">on3</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="887284638391138">
+                    <conditions>
+                        <condition id="-10" name="Compare opacity" sid="260414257892496" type="on3">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Opacity">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="331053701023713" type="on3">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="661727900929238" type="System">
+                            <param id="0" name="Variable">notifications</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="809634353964015">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="472403139438951" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="537410514014877" type="on3">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="883429695319180" type="System">
+                            <param id="0" name="Variable">notifications</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block any="1" sid="687365149555092">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="243651911526536" type="System">
+                    <param id="0" name="Variable">sound</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="639917539518241" type="System">
+                    <param id="0" name="Variable">music</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="8" name="Set silent" sid="400750173420433" type="Sounds">
+                    <param id="0" name="Mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="617979639187456">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="459737863960352" type="System">
+                    <param id="0" name="Variable">sound</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="395180410887035" type="System">
+                    <param id="0" name="Variable">music</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="8" name="Set silent" sid="505547677448873" type="Sounds">
+                    <param id="0" name="Mode">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="543574221817048">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="861723751617751" type="System">
+                    <param id="0" name="Variable">music</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="670313609545813" type="on1">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="589779742809976" type="on2">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="231021056988176">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="528246980257146" type="System">
+                    <param id="0" name="Variable">music</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="759712356811837" type="on1">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="390098324810611" type="on2">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="837253647572146">
+            <conditions>
+                <condition id="17" name="On tap object" sid="186759448354830" type="Touch">
+                    <param id="0" name="Object">play</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="848483119670761" type="System">
+                    <param id="0" name="Layer">3</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="498122579956313">
+            <conditions>
+                <condition id="17" name="On tap object" sid="889914497495127" type="Touch">
+                    <param id="0" name="Object">level_choose_close</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="364852382394276" type="System">
+                    <param id="0" name="Layer">3</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="397344876478542">
+            <conditions>
+                <condition id="17" name="On tap object" sid="280152670006817" type="Touch">
+                    <param id="0" name="Object">level1_start</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="632196355134023" type="System">
+                    <param id="0" name="Layer">3</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="905625009648507" type="System">
+                    <param id="0" name="Layout">lvl1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="882725746006774">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="709977671294370" type="System">
+                    <param id="0" name="Variable">is_lvl1_passed</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="323816935606124" type="System">
+                    <param id="0" name="Object to create">level2_start</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">964.126</param>
+                    <param id="3" name="Y">440.593</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="732886777779003">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="113828842916054" type="System">
+                    <param id="0" name="Variable">is_lvl1_passed</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="577426201629727" type="level2_start" />
+            </actions>
+        </event-block>
+        <event-block sid="427150536424976">
+            <conditions>
+                <condition id="17" name="On tap object" sid="253229048160355" type="Touch">
+                    <param id="0" name="Object">level2_start</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="800504581243737" type="System">
+                    <param id="0" name="Layout">lvl2</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

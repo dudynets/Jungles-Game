@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">lvl2</layout>
+        <layout order="3">lvl1</layout>
+        <layout active="1" order="4">menu</layout>
+        <event-sheet order="1">lvl2</event-sheet>
+        <event-sheet order="2">lvl1</event-sheet>
+        <event-sheet order="5">menu</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="1" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/back0/" />
+        <folder expanded="1" path="animation-folder/back1/" />
+        <folder expanded="1" path="animation-folder/back2/" />
+        <folder expanded="1" path="animation-folder/back3/" />
+        <folder expanded="1" path="animation-folder/back4/" />
+        <folder expanded="1" path="animation-folder/trees/" />
+        <folder expanded="1" path="animation-folder/main_player/" />
+        <folder expanded="1" path="animation-folder/bottom_platform/" />
+        <folder expanded="1" path="animation-folder/top_platform/" />
+        <folder expanded="1" path="animation-folder/barrel/" />
+        <folder expanded="1" path="animation-folder/start/" />
+        <folder expanded="1" path="animation-folder/star1/" />
+        <folder expanded="1" path="animation-folder/lvl1_subpart/" />
+        <folder expanded="1" path="animation-folder/lvl1_subpart2/" />
+        <folder expanded="1" path="animation-folder/star_gray1/" />
+        <folder expanded="1" path="animation-folder/star_gray2/" />
+        <folder expanded="1" path="animation-folder/star_gray3/" />
+        <folder expanded="1" path="animation-folder/star_yellow1/" />
+        <folder expanded="1" path="animation-folder/star_yellow2/" />
+        <folder expanded="1" path="animation-folder/star_yellow3/" />
+        <folder expanded="1" path="animation-folder/star2/" />
+        <folder expanded="1" path="animation-folder/star3/" />
+        <folder expanded="1" path="animation-folder/finish/" />
+        <folder expanded="1" path="animation-folder/sheet1/" />
+        <folder expanded="1" path="animation-folder/sheet2/" />
+        <folder expanded="1" path="animation-folder/progress_gray/" />
+        <folder expanded="1" path="animation-folder/progress_green/" />
+        <folder expanded="1" path="animation-folder/progress_yellow/" />
+        <folder expanded="1" path="animation-folder/progress_red/" />
+        <folder expanded="1" path="animation-folder/left_control/" />
+        <folder expanded="1" path="animation-folder/right_control/" />
+        <folder expanded="1" path="animation-folder/top_control/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/bg/" />
+        <folder expanded="1" path="animation-folder/play/" />
+        <folder expanded="1" path="animation-folder/name/" />
+        <folder expanded="1" path="animation-folder/settings/" />
+        <folder expanded="1" path="animation-folder/info/" />
+        <folder expanded="1" path="animation-folder/bg_sett/" />
+        <folder expanded="1" path="animation-folder/settings_back/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/Sprite7/" />
+        <folder expanded="1" path="animation-folder/sounds2/" />
+        <folder expanded="1" path="animation-folder/music/" />
+        <folder expanded="1" path="animation-folder/vibration/" />
+        <folder expanded="1" path="animation-folder/notifications/" />
+        <folder expanded="1" path="animation-folder/lvl2_part/" />
+        <folder expanded="1" path="animation-folder/lvl2_part2/" />
+        <folder expanded="1" path="animation-folder/lvl2_part3/" />
+        <folder expanded="1" path="animation-folder/lvl3_part/" />
+        <folder expanded="1" path="animation-folder/lvl2_part4/" />
+        <folder expanded="1" path="animation-folder/lvl1_part/" />
+        <folder expanded="1" path="animation-folder/lvl1_part2/" />
+        <folder expanded="1" path="animation-folder/lvl1_subpart3/" />
+        <folder expanded="1" path="animation-folder/triangle/" />
+        <folder expanded="1" path="animation-folder/triangle2/" />
+        <folder expanded="1" path="animation-folder/lvl1_subpart4/" />
+        <folder expanded="1" path="animation-folder/lvl1_backpart/" />
+        <folder expanded="1" path="animation-folder/skeleton/" />
+        <folder expanded="1" path="animation-folder/skeleton_border/" />
+        <folder expanded="1" path="animation-folder/sheet3/" />
+        <folder expanded="1" path="animation-folder/sheet4/" />
+        <folder expanded="1" path="animation-folder/sheet5/" />
+        <folder expanded="1" path="animation-folder/arrow/" />
+        <folder expanded="1" path="animation-folder/lvl1_subpart5/" />
+        <folder expanded="1" path="animation-folder/Sprite8/" />
+        <folder expanded="1" path="animation-folder/settings2/" />
+        <folder expanded="1" path="animation-folder/on1/" />
+        <folder expanded="1" path="animation-folder/on2/" />
+        <folder expanded="1" path="animation-folder/on3/" />
+        <folder expanded="1" path="animation-folder/settings_close/" />
+        <folder expanded="1" path="animation-folder/on1_plus/" />
+        <folder expanded="1" path="animation-folder/menu/" />
+        <folder expanded="1" path="animation-folder/menu2/" />
+        <folder expanded="1" path="animation-folder/menu3/" />
+        <folder expanded="1" path="animation-folder/menu4/" />
+        <folder expanded="1" path="animation-folder/menu5/" />
+        <folder expanded="1" path="animation-folder/menu6/" />
+        <folder expanded="1" path="animation-folder/resume/" />
+        <folder expanded="1" path="animation-folder/settings_menu/" />
+        <folder expanded="1" path="animation-folder/exit/" />
+        <folder expanded="1" path="animation-folder/Sprite9/" />
+        <folder expanded="1" path="animation-folder/level_passed/" />
+        <folder expanded="1" path="animation-folder/level_choose/" />
+        <folder expanded="1" path="animation-folder/level2_start/" />
+        <folder expanded="1" path="animation-folder/level_choose_close/" />
+        <folder expanded="1" path="animation-folder/level1_start/" />
+        <folder expanded="1" path="animation-folder/lvl1_completed_menu/" />
+        <folder expanded="1" path="animation-folder/lvl1_completed_replay/" />
+        <folder expanded="1" path="animation-folder/lvl1_completed_next/" />
+        <folder expanded="1" path="animation-folder/star_level_complete/" />
+    </folders-expanded>
+</c2uistate>
